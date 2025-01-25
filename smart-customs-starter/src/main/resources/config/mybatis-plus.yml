@@ -1,0 +1,16 @@
+# mybatis plus 配置
+mybatis-plus:
+  mapper-locations:
+    - classpath*:com/smart/customs/system/**/repository/mapper/xml/*Mapper.xml
+    - classpath*:com/smart/customs/biz/**/mapper/xml/*Mapper.xml
+  typeAliasesPackage: com.smart.customs.system.**.domain.entity,com.smart.customs.biz.**.domain.entity
+  global-config:
+    banner: false
+    db-config:
+      # 主键类型
+      id-type: assign_id
+      # 字段策略
+      insert-strategy: not_null
+      update-strategy: not_null
+      table-underline: true
+      logic-delete-field: is_deleted

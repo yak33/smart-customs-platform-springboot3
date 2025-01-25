@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.smart.customs</groupId>
+        <artifactId>smart-customs-platform-springboot3</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>smart-customs-base</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>smart-customs-base-common</module>
+        <module>smart-customs-base-code-generator</module>
+        <module>smart-customs-base-job-quartz</module>
+        <module>smart-customs-base-database-mybatis-plus</module>
+        <module>smart-customs-base-database-mysql</module>
+        <module>smart-customs-base-database-redis</module>
+        <module>smart-customs-base-database-sharding</module>
+        <module>smart-customs-base-oss</module>
+        <module>smart-customs-base-sa-token</module>
+    </modules>
+
+</project>
