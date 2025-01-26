@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://1.94.253.73:3306/panis_boot?socketTimeout=60000&connectTimeout=30000&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://1.94.253.73:3306/smart-customs-platform?socketTimeout=60000&connectTimeout=30000&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&allowMultiQueries=true&serverTimezone=Asia/Shanghai
     username: root
     password: cnmngdxB999!~!
   data:
@@ -14,7 +14,7 @@ spring:
           enabled: true
 oss:
   name: minio
-  bucket-name: intelligent-customs-platform
+  bucket-name: smart-customs-platform
   endpoint: http://1.94.253.73:9010/
   access-key: XyD3l9A2Fz9TVYSKND3j
   secret-key: s2A3knISlBqZk9tGsUOmAIha3Ndc7JD7ZL3VOlGS
